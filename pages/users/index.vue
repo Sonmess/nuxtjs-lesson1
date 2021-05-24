@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <h1>Hi user.</h1>
-    <input type="text" v-model="userId">
-    <button @click="onLoadUser">Load user</button>
-  </div>
+  <p>Please enter an ID for user to load</p>
 </template>
 
 <script>

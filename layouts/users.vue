@@ -1,18 +1,9 @@
 <template>
   <div>
-    <Header></Header>
+    <header>Users layout</header>
     <Nuxt />
   </div>
 </template>
-
-<script>
-import Header from "../components/Header";
-export default {
-  components: {
-    Header
-  }
-}
-</script>
 
 <style>
 html {

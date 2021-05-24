@@ -5,6 +5,7 @@
       <h1 class="title">
         lesson-1
       </h1>
+      <Header></Header>
 
       <div class="links">
         <nuxt-link to="/users">Users</nuxt-link>
@@ -15,7 +16,12 @@
 </template>
 
 <script>
-export default {}
+import Header from "../components/Header";
+export default {
+  component: {
+    Header: Header
+  }
+}
 </script>
 
 <style>

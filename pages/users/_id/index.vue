@@ -4,6 +4,9 @@
 
 <script>
 export default {
-  name: "_id"
+  name: "index",
+  validate(data) {
+    return /^\d+$/.test(data.params.id);
+  }
 }
 </script>
